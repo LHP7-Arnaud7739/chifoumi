@@ -1,0 +1,59 @@
+.container {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    ;
+    ;
+    border-radius: 10px;
+}
+
+.titre {
+    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+; */
+    background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+    border-radius: 10px;
+}
+.button {
+    margin: 2rem auto;
+    max-width: 400px;
+    border: none;
+    color: white;
+    border-radius: .25rem;
+    font-size: 1.125rem;
+    padding: 20px 60px;
+    cursor: pointer
+}
+
+.bouton {
+    font-size: xx-large;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+    background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+}
+
+.bouton:hover {
+
+    animation: pulsation_bouton .8s ease-out
+}
+
+@keyframes pulsation_bouton {
+
+    from {
+        box-shadow: 0 0 0 -3px hsla(0, 0%, 100%, 0), 0 0 0 0 rgb(4, 4, 4)
+    }
+
+    to {
+
+        box-shadow: 0 0 0 10px hsla(0, 0%, 100%, 0), 0 0 0 13px hsla(0, 0%, 100%, 0)
+    }
+
+}
+
+.resultat {font-size: xx-large;
+    background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+    border-radius: 10px;
+    box-shadow: black, 20px;
+}
+.gifWin{display: none;}
