@@ -11,33 +11,39 @@
     <link rel="stylesheet" href="style.css" />
 
 </head>
-<div class="container m-5 p-5">
+<div class=".resultat container m-5 p-5">
 
     <div id="titre" class="titre border border-dark row text-center p-2 m-3">
-        <h1> CHIFOUMI</h1>
+        <h1><img class="imgLogo" src="img/shifumi1.png" WIDTH='30%' alt="titreLogo"></h1>
     </div>
 
     <div class="divBouton justify-content-center row ">
-        <button id="button1" class="bouton m-4 p-4 col-md-3 text-dark">Pierre</button>
-        
-        <button id="button1" class="bouton m-4 p-4  col-md-3 text-dark">Feuille</button>
-        <button id="button1" class="bouton m-4 p-4 col-md-3 text-dark">Ciseaux</button>
+        <button id="button1" class="bouton m-4 p-4 col-md-3 text-dark">Pierre 🪨</button>
+
+        <button id="button1" class="bouton m-4 p-4  col-md-3 text-dark">Feuille 🍁</button>
+        <button id="button1" class="bouton m-4 p-4 col-md-3 text-dark">Ciseaux ✂️</button>
     </div>
     <!-- <div class="divBouton justify-content-center row ">
         <button id="buttonFight" class="bouton m-4 p-4 col-md-3 text-dark">Fight </button>
 
     </div> -->
 
-    <div id="resultat" class="resultat p-5 border border-dark text-center" >
-        <img class="gif" src="img/choice.gif" alt="choix">
-        <audio id="sound1"  preload="auto"> 
-            <audio id="sound3"  preload="auto"> 
-                <source src="audio/squidGame.mp3" type="audio/mpeg" /> </audio>
-            <source src="audio/ff7mp3.mp3" type="audio/mpeg" /> </audio>
-            <audio id="sound2"  preload="auto"> 
-                <source src="audio/pacman.mp3" type="audio/mpeg" /> </audio>
+    <div id="resultat" class="resultat p-5  text-center">
+
+
+
+
     </div>
-    
+
+    <!-- <img class="gif" src="img/choice.gif" alt="choix"> -->
+    <audio id="sound1" preload="auto">
+        <audio id="sound3" preload="auto">
+            <source src="audio/extra_round.mp3" type="audio/mpeg" /> </audio>
+        <source src="audio/you_win.mp3" type="audio/mpeg" /> </audio>
+    <audio id="sound2" preload="auto">
+        <source src="audio/you_lose.mp3" type="audio/mpeg" /> </audio>
+
+
 </div>
 
 <script src="script.js"></script>
